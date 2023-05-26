@@ -124,7 +124,7 @@
         let timeRemaining = 45;
 
         function updateTimeRemaining() {
-            timeRemaining -= 0.5;
+            timeRemaining -= 1;
             document.getElementById("timer").innerHTML = `Time remaining: ${Math.round(timeRemaining)}s`;
         }
 
@@ -148,7 +148,7 @@
                 if (timeRemaining <= 0) {
                     handleTimeUp(a, b, c, d, e);
                 }
-            }, 500);
+            }, 1000);
         }
 
         function playGame() {
@@ -236,7 +236,7 @@
         }
     </script>
 </head>
-    <body onload="playGame(); updateAttempts(); startTimer(); document.getElementById('new-game').style.display = 'none'; document.getElementById('message').style.display = 'block';">
+    <body onload="playGame(); updateAttempts(); document.getElementById('new-game').style.display = 'none'; document.getElementById('message').style.display = 'block';">
     <h1>Operation Conundrum</h1>
     <div id="instructions">
         <p>Welcome to Operation Conundrum! The goal of the game is to find the correct combination of operators (+, -, *, /) to solve the given equation. You have 3 attempts and 45 seconds to solve each equation. Good luck!</p>
