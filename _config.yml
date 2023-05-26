@@ -1,0 +1,12 @@
+# Site settings
+title: Operation Conundrum
+description: A fun and challenging math game where the goal is to find the correct combination of operators (+, -, *, /) to solve a given equation.
+baseurl: ""
+url: "https://operation-conundrum.github.io"
+
+# Build settings
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
