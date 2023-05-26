@@ -8,13 +8,13 @@ This game, including the code, design, and this README, was entirely written by 
 
 You can play the game by visiting the following link on GitHub Pages:
 
-[Operation Conundrum - Live Demo](https://operation-conundrum.github.io)
+[Operation Conundrum - Live Demo](https://dfeldman.github.io/operation-conundrum.github.io/game.html)
 
 ## Repository
 
 The source code for the game is hosted on GitHub at the following repository:
 
-[operation-conundrum.github.io](https://github.com/operation-conundrum/operation-conundrum.github.io)
+[operation-conundrum.github.io](https://github.com/dfeldman/operation-conundrum.github.io)
 
 Feel free to explore the code, report issues, or contribute to the project.
 
